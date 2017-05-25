@@ -1,0 +1,55 @@
+@charset "utf-8";
+body,font{padding:0;margin:0;font-size:14px;color:#333333;font-family:""STHeitiSC-Medium","Heiti SC Medium","Heiti SC"";}
+ul,li,div,p,dl,h1,h2,h3,h4,h5,h6,ol,table,tr,td,form,img,iframe{border:none;padding:0;margin:0; }
+ul,li{list-style:none;}
+a{text-decoration:none; outline:none;}
+
+.clear:after{content:"\20";display:block;height:0;clear:both;}
+.clear { display: block;zoom:1; }
+body,html{width:100%; height:100%;}
+.header{height:60px; width:100%; background:#fefefe;}
+.logoBox{float:left; margin:8px 0 0 15px;}
+.title{ color:#1680c4; font-size:30px; font-weight:bold; float:left; margin:8px 0 0 0; }
+.logoBox .logo{float:left;height:47px; width:auto; margin:0;}
+.userMsg{float:right; margin:10px 20px 0 0; height:40px; line-height:40px;}
+.userName{color:#333; font-size:13px; margin:0 8px 0 0;}
+.userHead{height:36px; width:36px; overflow:hidden; border:2px solid #e4e4e4; vertical-align:-14px;}
+.userHead img{width:36px; height:36px;}
+.dividLine{width:0; height:24px; overflow:hidden; border-left:1px solid #ccc; border-right:1px solid #fff; float:left; margin:12px 8px 0;}
+.nav{height:35px; line-height:35px; background:#1680c4; width:100%;}
+.nav ul{margin-left:20px;}
+.nav li{float:left; _display:inline; height:35px; line-height:35px; }
+.nav a{display:inline-block; height:35px; line-height:35px; color:#fff; text-decoration:none;}
+.nav .on a{font-weight:bold; background:#5cb4fc;}
+.nav li a:hover{background:#5cb4fc;}
+.nav  span{display:block; height:16px; line-height:16px; font-size:14px; border-left:1px solid #4599d0; padding:0 36px; color:#fff; font-size:14px; margin-top:10px;}
+.nav a span{cursor:pointer;}
+.container{width:100%; margin:20px auto 0; min-height:500px; height:auto !important; height:500px;}
+
+.box {width:100%; height:100%; margin:0 auto 0; position:relative; background:#f1f1f1;}
+.menu {width: 200px;position:absolute; left:0; top:0; margin-top:10px;}
+.center {height:100%; margin-left:200px; background:#fff;}
+.level2 {display: none;}
+.content{padding:0 20px;}
+.btnbox{padding-bottom:10px;}
+.btn_style{display:inline-block;background:#428bca; color:#fff; border:1px solid #357ebd; font-weight:bold; border-radius:4px; height:30px; line-height:30px; padding:0 16px; cursor:pointer;}
+.btn_style:hover{backgrond:#72b4ed;}
+.tableData{width:100%;}
+.tableData table{width:100%; background:#fff;}
+.tableData table th{background:#b2e7ff; font-weight:normal; height:32px; line-height:32px;}
+.tableData table td{line-height:30px; padding:1px 6px; border:0;}
+.operate{text-align:center;}
+.operate a{display:inline-block; font-size:12px; margin:0 8px; border-radius:2px; height:22px; line-height:22px; padding:0 10px; background:#2b9ff6; color:#fff; cursor:pointer;}
+.operate a:hover{background:#5cb4fc;}
+.formList{margin-top:10px;}
+.formList li{height:36px; line-height:36px;padding:4px 0;}
+.formList .labelName{width:100px; height:36px; line-height:36px; display:inline-block; font-weight:bold; text-align:right; margin-right:8px;}
+.formList .textStyle{height:28px; line-height:28px; width:280px; padding:0 4px; border:1px solid #dddddd; border-radius:4px; background:#fff;}
+.submitBtn{padding:0 28px;}
+.formList .formBtnB{padding:15px 0 0 200px;}
+.pageTitle{font-size:16px; padding:8px 0; border-bottom:2px solid #dddddd;}
+.funSet{margin:12px 0 0 20px;}
+.formBtnInput{margin-top:20px;}
+.formBtnInput input{margin:0 8px;}
+
+.downModel a{margin:0 12px 0 0; text-decoration:underline; font-weight:bold;}

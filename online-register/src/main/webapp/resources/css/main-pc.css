@@ -1,0 +1,64 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0; padding:0; font-size:12px; font-family:"微软雅黑",Arial, Helvetica, sans-serif;} 
+ul,ol,li{list-style:none;}
+dt,th{font-weight:normal}
+input,img{border:none;}
+html,body{height:100%;}
+.pcbody{width:99%; margin:0 auto;overflow:visible;}
+@media screen and (max-width:1000px){
+	.pcbody{width:1000px;}
+}
+
+.clearfix:after{content:"\20";display:block;height:0;clear:both;}
+.clearfix { display: block;zoom:1; }
+.container{width:100%; height:auto; }
+.selectBox{padding:0 10px 10px 10px; border:1px solid #d0cecc;}
+.selectBox .refreshBtn{margin-top:10px; float:left;}
+.topBox{padding:10px 0 0;}
+.selectBox .select_cond{float:left;width:200px; margin:10px 30px 0 0; height:25px; line-height:25px;}
+.selectBox .select_cond input{width:130px; padding:0 24px 0 4px; height:24px; line-height:24px; background:url(../images/icon_arr.png) #ddd 140px 10px no-repeat; border-radius:8px; border:0; outline:none; cursor:pointer;}
+.mh_search{padding:10px 0; text-align:center;}
+.mh_search .blue_btn{margin-left:10px;}
+.selectBox .select_cond input.search_text{background:none; border-radius:0; border:1px solid #ccc; width:110px; height:22px; line-height:22px;}
+.select_w{width:150px; padding:0 0 0 4px; position:relative; height:24px; line-height:24px; background:url(../images/icon_arr.png) #ddd 144px 8px no-repeat; border-radius:8px; border:0; outline:none; cursor:pointer;}
+.selectStyle{width:150px; padding:0 0 0 4px; position:absolute; height:24px; line-height:24px; background:url(../images/icon_arr.png) #f90 144px 8px no-repeat; border-radius:8px; border:0; outline:none; cursor:pointer;}
+.hide_contr{position:relative;}
+.hide_select_box{position:absolute; top:24px; right:-66px; border:1px solid #ddd; background:#fff; min-width:220px; width:auto !important; width:220px; height:auto; padding:6px 4px 2px; z-index:999; border-radius:4px; display:none;}
+.selectBox .hide_select_box2{padding:0; min-width:158px; width:auto !important; width:158px; right:6px;}
+.select_demo li{line-height:24px; padding-left:12px; cursor:pointer;}
+.select_demo li.on{background:#5cb4fc; color:#fff;}
+.closeBox{ text-align:center; height:24px; line-height:24px;}
+.closeBox span{cursor:pointer; color:#999}
+.hide_select_box .ztree li span.button.ico_docu,.hide_select_box .ztree li span.button.ico_close,.hide_select_box .ztree li span.button.ico_open{height:0; width:0; overflow:hidden;}
+.blue_btn{display:inline-block; text-decoration:none;  padding:0 15px; height:24px; line-height:24px; text-align:center; border-radius:4px; background-color:#5cb4fc; color:#fff; cursor:pointer;}
+.download_pc{float:right;}
+.selectBox .download_pc{margin-top:10px;}
+.Wdate{cursor:pointer;}
+.dName{text-align:center; padding:10px 0;}
+.deco{color:red; margin-top:-30px;}
+
+
+.refreshBtn{float:right; margin-top:5px; width:70px; height:24px; line-height:24px; text-align:center; border-radius:4px; background-color:#5cb4fc; color:#fff; cursor:pointer;}
+.tableWrap{  border: 1px solid #d0cecc; margin: 10px 0 0 0; height:auto;}
+.priceMonitor{height:auto; overflow: auto;}
+.tableWrap table{width:100%; border-spacing:0;}
+.tableHead th{background:#b2e7ff; padding:6px 10px; line-height:18px;}
+.tableWrap td{padding:6px 10px; line-height:18px; text-align:center;}
+.tableWrap .priceMonitor table{width:180%;}
+.tableWrap .tableList{height:80%;}
+.tableWrap .tableList .odd td{background:#f6f6f6;}
+.fail{text-align:center; font-size:18px; padding:200px 0;}
+.loading{padding:200px 0; text-align:center;}
+
+.paginator{height:24px; padding:10px ;}
+.pageBtn{float:right;}
+.pageBtn span{display:inline-block; float:left; margin:0 4px; height:24px; line-height:24px;}
+.input_page{height:20px; line-height:20px; border:1px solid #b2e7ff; margin:0 4px; padding:0 4px; width:20px; text-align:center;}
+.goBtn{ text-align:center;width:36px; border-radius:4px; background-color:#5cb4fc; color:#fff; cursor: pointer;}
+.pageBtn span.allpage{border-left:1px solid #ccc; border-right:1px solid #ccc; margin-top:4px; padding:0 8px; height:16px; line-height:16px;}
+
+table.pc.titleTable .sequence{display:inline-block; vertical-align:middle; margin:0 0 0 2px; width:16px; height:22px; cursor:pointer;}
+table.pc.titleTable .desc{width:16px; height:10px;background:url(../img/sequence-icon.png) 1px -12px no-repeat; margin-top:2px;}
+table.pc.titleTable .asc{width:16px; height:10px;background:url(../img/sequence-icon.png) 1px 2px no-repeat;}
+table.pc.titleTable .desc.on{background-position:-14px -12px;}
+table.pc.titleTable .asc.on{background-position:-14px 2px;}
+
